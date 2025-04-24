@@ -1,0 +1,40 @@
+.headline{
+    font-size: 100px;font-weight: bold;
+    margin-bottom: none;text-align: center;
+    background-color: gray;
+}
+.mobile-menu{
+    display: none;
+    justify-content: center;
+}
+.list{
+    display: flex;
+    font-size: 30px;font-weight: bold;
+    margin-bottom: 15px;text-align: center;
+    background-color: darkgrey;
+    
+}
+.product{
+    flex: auto;width: none;
+    background-color: none;
+    
+}
+@media (max-width: 1250px){
+    .list{
+        flex-wrap: wrap;
+    }
+    .product{
+        width: 45%;
+    }
+}
+@media (max-width: 500px){
+    .headline{
+        font-size: 50px;
+    }
+    .product{
+        width:90% ;
+    }
+    .mobile-menu{
+        display: block;
+    }
+}

@@ -1,0 +1,33 @@
+.frame{
+    display: flex;
+    
+}
+.left{   
+    flex:auto;/*自動調整*/
+}
+.right{
+    display: flex;
+    justify-content: right;    
+    flex:none;
+    width: 200px;
+}
+.item{
+    background-color: #cccccccc;
+    flex:none;
+    width: 100px;
+    text-align: center;
+
+}
+.Myweb{
+    display: flex;
+    background-color: #cccc;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+}
+.text{
+    width: 300px;height: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
